@@ -23,7 +23,13 @@ public class Main1 {
 		r1.ac.tempdown();
 		r1.ac.tempup();
 		r1 = new Remote(lights=new Lights());
+		r1.l1.On();
+		r1.l1.Off();
 		r1 = new Remote(wash=new WashingMachine());
+		r1.wash.On();
+		r1.wash.wash();
+		r1.wash.Off();
+		
 	}
 
 }

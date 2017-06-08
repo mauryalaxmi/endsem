@@ -9,14 +9,14 @@ public class AirConditoner {
 	{
 		if(this.flag==0)
 		{
-			System.out.println("the ac are on");
+			System.out.println("the ac on");
 			this.flag=1;
 		}
 	}
 	public  void Off(){
 		if(this.flag==1)
 		{
-			System.out.println("the ac are off");
+			System.out.println("the ac off");
 			this.flag=0;
 		}
 	}
@@ -25,14 +25,18 @@ public class AirConditoner {
 		if(flag==1)
 		{
 			this.setTemp(this.getTemp() + 1);
-			System.out.println("the temp is :" + temperature);
+			printTemperature();
 		}
+	}
+	private void printTemperature() {
+		System.out.println("the temp is :" + temperature);
 	}
 	public void tempdown(){
 		//On();
 		if(flag==1)
 		{
-			this.setTemp(this.getTemp() - 1);	
+			this.setTemp(this.getTemp() - 1);
+			printTemperature();
 		}
 	}
 	public int getTemp() {

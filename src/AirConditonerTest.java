@@ -14,6 +14,7 @@ public class AirConditonerTest {
 	@Test
 	public void testTempup() {
 		//fail("Not yet implemented");
+		ac1.On();
 		ac1.tempup();
 		assertEquals(16,ac1.getTemp());
 	}
@@ -21,6 +22,7 @@ public class AirConditonerTest {
 	@Test
 	public void testTempdown() {
 		//fail("Not yet implemented");
+		ac1.On();
 		ac1.tempdown();
 		assertEquals(14,ac1.getTemp());
 	}

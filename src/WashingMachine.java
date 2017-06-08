@@ -16,4 +16,10 @@ public class WashingMachine {
 			this.flag=0;
 		}
 	}
+	public  void wash(){
+		if(this.flag==1)
+		{
+			System.out.println("machine strated washing clothes");
+		}
+	}
 }

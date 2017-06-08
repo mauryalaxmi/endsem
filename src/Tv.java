@@ -11,7 +11,7 @@ public class Tv {
 	{
 		if(this.flag==0)
 		{
-			System.out.println("the tv are on");
+			System.out.println("the tv on");
 			this.flag=1;
 		}
 	}
@@ -30,7 +30,7 @@ public class Tv {
 	public  void Off(){
 		if(this.flag==1)
 		{
-			System.out.println("the tv are off");
+			System.out.println("the tv off");
 			this.flag=0;
 		}
 	}
