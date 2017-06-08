@@ -1,9 +1,9 @@
 
 public class AirConditoner {
 	public int flag=0;
-	private int temp;
-	public AirConditoner(int temp) {
-		this.temp=temp;
+	private int temperature;
+	public AirConditoner(int temperature) {
+		this.temperature=temperature;
 	}
 	public  void On()
 	{
@@ -36,9 +36,9 @@ public class AirConditoner {
 		}
 	}
 	public int getTemp() {
-		return temp;
+		return temperature;
 	}
 	public void setTemp(int temp) {
-		this.temp = temp;
+		this.temperature = temp;
 	}
 }

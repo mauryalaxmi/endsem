@@ -6,6 +6,10 @@ public class Main1 {
 		Tv tv1=null;
 		Remote r1;
 		r1 = new Remote(new Tv(152,15));
+		r1 = new Remote(new Tv(152,15));
+		r1 = new Remote(new Tv(152,15));
+		r1 = new Remote(new Tv(152,15));
+		
 	}
 
 }
