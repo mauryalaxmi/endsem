@@ -27,7 +27,7 @@ public class Audio {
 		}
 	}
 	public void Volumeup(){
-		On();
+		//On();
 		if(flag==1)
 		{
 			this.vol++;
@@ -35,7 +35,7 @@ public class Audio {
 		}
 	}
 	public void Volumedown (){
-		On();
+		//On();
 		if(flag==1)
 		{
 			this.vol--;

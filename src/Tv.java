@@ -38,28 +38,34 @@ public class Tv {
 		if(flag==1)
 		{
 			this.vol++;
-			
+			printvol();
 		}
+	}
+	private void printvol() {
+		System.out.println("the volume is:" + this.vol);
+	}
+	private void printChannel() {
+		System.out.println("the channel is:" + this.channel);
 	}
 	public void Volumedown (){
 		if(flag==1)
 		{
 			this.vol--;
-			
+			printvol();
 		}
 	}
 	public void Channelup(){
 		if(flag==1)
 		{
 			this.channel++;
-			
+			printChannel();
 		}
 	}
 	public void Channeldown(){
 		if(flag==1)
 		{
 			this.channel--;
-			
+			printChannel();
 		}
 	}
 }

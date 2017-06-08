@@ -21,15 +21,15 @@ public class AirConditoner {
 		}
 	}
 	public void tempup(){
-		On();
+		//On();
 		if(flag==1)
 		{
 			this.setTemp(this.getTemp() + 1);
-			
+			System.out.println("the temp is :" + temperature);
 		}
 	}
 	public void tempdown(){
-		On();
+		//On();
 		if(flag==1)
 		{
 			this.setTemp(this.getTemp() - 1);	

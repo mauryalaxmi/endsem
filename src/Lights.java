@@ -1,5 +1,5 @@
 
-public class lights {
+public class Lights {
 	public int flag=0;
 	public  void On()
 	{

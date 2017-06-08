@@ -1,9 +1,9 @@
 
-public class Remote {
+public class Remote  {
 	Tv tv;
 	Audio audio;
 	AirConditoner ac;
-	lights l1;
+	Lights l1;
 	WashingMachine wash;
 	public Remote(Object obj) {
 		// TODO Auto-generated constructor stub
@@ -19,9 +19,9 @@ public class Remote {
 		{
 				ac=(AirConditoner)obj;
 		}
-		else if(obj instanceof lights)
+		else if(obj instanceof Lights)
 		{
-			   l1=(lights)obj;
+			   l1=(Lights)obj;
 		}
 		else if(obj instanceof WashingMachine)
 		{
